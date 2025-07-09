@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">JL.web</div>
+    <br>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="extracurriculars.html">Extracurriculars</a>
+        <a href="contacts.html" class="active">Contacts</a>
+        <a href="more-about-me.html">About Me</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <br> <br>
+    <div class="ec-grid-container">
+        <div class="extraC">
+            <p>You can reach out to me through these links:</p>
+            <a href="https://www.facebook.com/jl.taberdo27/"><img src="Facebook_Logo_(2019).png" alt="facebook_logo"></a>
+            <a href="https://www.instagram.com/jey_el_27/"><img src="instagram_logo.png" alt="Instagram_logo"></a>
+        </div>
+        <div class="extraC1">
+            <p>Or you can add your email here and give me a message!</p>
+            <p style="font-weight: bold;"> Email: </p>
+            <input id="email" type="text" placeholder="Email" style="font-family: 'Rubik'; width: 1fr; height: 50px; font-size: large;">
+            <p style="font-weight: bold;" > Message: </p>
+            <input id="message" type="text" placeholder="Message" style="font-family: 'Rubik'; width: 1fr; height: 70px; font-size: large;">
+            <br> <br>
+            <button onclick="returnText()">Submit</button>
+
+            <script src="script.js"></script>
+        </div>
+    </div>
+
+    <div class="footer"> Author: Jhon Laurence O. Taberdo </div>
+</body>
+</html>
